@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&display=swap");
+
+body {
+  font-size: 16px;
+  font-family: "Alkatra", cursive;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.btn {
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  background: #7b7be9;
+  border: none;
+  box-shadow: 5px 5px 2px 1px rgba(0, 0, 255, 0.2);
+  transition: color 0.3s;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: visibility 0s 0.6s;
+  visibility: visible;
+}
+
+.modal-container {
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modal {
+  width: 300px;
+  background-color: #18181b73;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}

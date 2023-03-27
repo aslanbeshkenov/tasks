@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+  font-size: 48px;
+  position: relative;
+}
+
+.blocks {
+  display: flex;
+  width: 300px;
+  overflow: hidden;
+}
+
+.block {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 100px;
+  background-color: rgb(167, 74, 74);
+  border: 1px solid black;
+  transform: translateX(0px);
+}
+
+a {
+  text-decoration: none;
+  font-size: 48px;
+}
+
+.slide {
+  position: absolute;
+  top: 22px;
+}
+
+.prevSlide {
+  left: -6%;
+}
+
+.nextSlide {
+  right: 60%;
+}
